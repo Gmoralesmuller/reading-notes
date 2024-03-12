@@ -1,4 +1,4 @@
-#Markdown
+# Markdown
 ## 1.¿Qué es?
 
 Es un lenguaje que tiene la finalidad de permitir crear contenido de una manera sencilla de escribir, y que en todo momento mantenga un diseño legible, así que para simplificar puedes considerar Markdown como un método de escritura.
