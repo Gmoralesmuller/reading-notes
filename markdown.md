@@ -27,6 +27,7 @@ Puede crear un vínculo en línea escribiendo su texto entre corchetes [ ] y esc
 
 Se puede crear una lista sin ordenar, colocando -, * o + antes de una o más líneas de texto.
 
- >[!NOTE]
+ > [!NOTE]
 
-Realizado por: Georgina Morales :<3:
+Realizado por: Georgina Morales ❤️
+Github: [GithubGeorgina](https://github.com/Gmoralesmuller)
