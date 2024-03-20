@@ -1,0 +1,1 @@
+notas de lecturas de clase 01 
