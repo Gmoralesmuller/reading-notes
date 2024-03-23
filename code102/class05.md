@@ -1,82 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+# CSS
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantpedia</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
+## 1. ¿Cuál es el propósito de CSS?
 
-<body>
-    <header>
-        <h1>Plantpedia</h1>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Buscador</a></li>
-                <li><a href="">Proveedores</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="hero">
-            <img id="hero_image"
-                src="https://images.unsplash.com/photo-1477554193778-9562c28588c0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Foto de una planta Ficus" width="500">
-            <hr />
-            <h2>Somos la empresa líder en información verificada sobre plantas</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sunt aliquid nobis excepturi suscipit
-                dignissimos blanditiis unde molestiae? Optio, quibusdam pariatur laborum vero dicta odio soluta mollitia
-                sed libero ex.</p>
-        </section>
-        <section id="gallery">
-            <div>
-                <img src="https://plus.unsplash.com/premium_photo-1673898654771-1b523c2d3016?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                        <h3>Cuidado de plantas</h3>
-            </div>
-            <div>
-                <img src="https://plus.unsplash.com/premium_photo-1673898654771-1b523c2d3016?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="">
-                        <h3>Tipos de plantas</h3>
-            </div>
-            <div>
-                <img src="https://plus.unsplash.com/premium_photo-1673898654771-1b523c2d3016?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="">
-                        <h3>Beneficios</h3>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <table>
-            <tr>
-                <td>
-                    <h2>Contactanos</h2>
-                    <ul>
-                        <li><a href="tel:999999999">Cel: 999999999</a>
-                        </li>
-                        <li<a href="mailto:michael@plantpedia.com">Correo: Michael@plantpedia.com</a></li>
-                            <li>Av Nose 123, Surco</li>
-                    </ul>
-                </td>
-                <td>
-                    <h2>Síguenos</h2>
-                    <ul>
-                        <li>icon IG</li>
-                        <li>icon YT</li>
-                        <li>icon TK</li>
-                    </ul>
-                </td>
-                <td>
-                    <img src="https://plus.unsplash.com/premium_photo-1673898654771-1b523c2d3016?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                        alt="" width="200">
-                </td>
-            </tr>
-        </table>
-    </footer>
-</body>
+# Propósito de CSS
 
-</html>
+CSS (Cascading Style Sheets) es un lenguaje de estilo utilizado para controlar el aspecto visual y la presentación de páginas web. Su propósito principal es separar el contenido de la presentación, permitiendo a los desarrolladores web definir cómo se verá el contenido HTML en un navegador.
+
+# Formas de insertar CSS en tu proyecto
+
+Hay tres formas principales de insertar CSS en un proyecto web:
+
+1. **CSS Externo**: En esta técnica, el CSS se almacena en archivos separados con extensión `.css` y se enlaza al HTML utilizando la etiqueta `<link>` en el `<head>` del documento HTML.
+
+   ```html
+   `<head>
+       <link rel="stylesheet" href="estilos.css">
+   </head>`
+
+## 2. ¿Cuáles son las tres formas de insertar CSS en tu proyecto?
+
+  * CSS Interno: Con esta técnica, el CSS se coloca dentro de la etiqueta **style** en el **head** del documento HTML. Esto permite que el CSS sea específico para una página individual.
+  * CSS Inline: Aplicando estilos directamente a elementos HTML utilizando el atributo style.
+  * CSS Estilo en linea.
+
+## 3. Escribe un ejemplo de una regla CSS que daría texto rojo a todos los elementos `<p>`.
+
+`p {
+    color: red;
+}`
