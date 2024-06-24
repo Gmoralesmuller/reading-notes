@@ -103,7 +103,7 @@ En el caso de crear una variable Number los numeros no tienen comillas.
         let edad = 26;
     ```
 
-*5. ¿Qué es una Variable y por qué son importantes en JavaScript?
+*5. ¿Qué es una Variable y por qué son importantes en JavaScript?*
 
 Las variables son contenedores en los que se puede almacedar valores. En primer lugar, se debe declarar la variable con la palabra clave; ya sea var, let o const.
 
@@ -172,10 +172,10 @@ Para tener una página web tipica se necesita incluir los siguientes elementos:
 
 #### **Fuentes Consultadas:**
 
-1.-[Primeros pasos con HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-2.-[Estructura web y documentación](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
-3.-[¿Qué hay en la cabecera? Metadatos en HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
-4.- *Algunos bloques especificados fueron con el apoyo de ChatGPT o copiados directamente de la fuente (links superiores).*
+1. [Primeros pasos con HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+2. [Estructura web y documentación](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+3. [¿Qué hay en la cabecera? Metadatos en HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+4. *Algunos bloques especificados fueron con el apoyo de ChatGPT o copiados directamente de la fuente (links superiores).*
 
 ## Miscelánea
 
@@ -222,7 +222,7 @@ Se añade Javascript a un documento HTML empleando el elemento ```<script>```.
 
 #### **Fuentes Consultadas:**
 
-1.-[¿Cómo empiezo a diseñar mi sitio web?](https://developer.mozilla.org/es/docs/Learn/Common_questions/Design_and_accessibility/Thinking_before_coding)
-2.-[Semántica](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
-3.-[¿Qué es JavaScript?](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
-4.- *Algunos bloques especificados fueron con el apoyo de ChatGPT*
+1. [¿Cómo empiezo a diseñar mi sitio web?](https://developer.mozilla.org/es/docs/Learn/Common_questions/Design_and_accessibility/Thinking_before_coding)
+2. [Semántica](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+3. [¿Qué es JavaScript?](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+4. *Algunos bloques especificados fueron con el apoyo de ChatGPT*
