@@ -93,19 +93,20 @@ Atribución y cumplimiento de la licencia:
 En el caso de crear una variable string se debe escribir entre comillas.
     Ejemplo:
 
-    ``` javascript
+``` 
 
         let nombre = 'Georgina';
 
-    ```
-En el caso de crear una variable Number los numeros no tienen comillas.
-    Ejemplo:
+```
 
-    ``` javascript
+En el caso de crear una variable Number los numeros no tienen comillas.
+Ejemplo:
+
+``` 
 
         let edad = 26;
-        
-    ```
+
+```
 
 *5. ¿Qué es una Variable y por qué son importantes en JavaScript?*
 
