@@ -93,7 +93,7 @@ Atribución y cumplimiento de la licencia:
 En el caso de crear una variable string se debe escribir entre comillas.
     Ejemplo:
 
-``` 
+```javascript
 
         let nombre = 'Georgina';
 
@@ -102,7 +102,7 @@ En el caso de crear una variable string se debe escribir entre comillas.
 En el caso de crear una variable Number los numeros no tienen comillas.
 Ejemplo:
 
-``` 
+```javascript
 
         let edad = 26;
 
@@ -207,7 +207,7 @@ Existen varias razones por las que es conveniente usar un elemento ```<h1>``` en
 
 2.-¿Cuáles son los beneficios de utilizar etiquetas semánticas en nuestro HTML?
 
-Son los siguientes: 
+Son los siguientes:
     1. Las etiquetas semánticas ayudan a las tecnologías asistivas a interpretar y anunciar el contenido correctamente.
     2. Los motores de búsqueda utilizan etiquetas semánticas para entender la estructura y el contenido de una página web. Esto mejora la indexación y puede resultar en una mejor clasificación en los resultados de búsqueda.
     3. El uso de etiquetas semánticas hace que el código HTML sea más legible y mantenible. Los desarrolladores pueden entender rápidamente la estructura y propósito del contenido, facilitando la colaboración y el mantenimiento del código a largo plazo.
