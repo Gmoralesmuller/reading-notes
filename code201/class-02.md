@@ -4,14 +4,11 @@
 
 ### 1. ¿Por qué es importante utilizar elementos semánticos en nuestro HTML?
 
-    - Los elementos semánticos proporcionan una estructura clara del contenido que beneficia la navegación a los usuarios que dependen de tecnologías de asistencia.
-
-    - Los motores de busqueda utilizan la estructura del HTML para indexar y clasificar las páginas web. los elementos semánticos ayudan a los motores de busqueda a entender el contenido de la página mejorando la visibilidad y el posicionamiento en los resultados de busqueda.
-
-    -Hace que el código sea más legible y comprensible para los desarrolladores; ya que, facilida el mantenimiento y la colaboración en proyectos de desarrollo web.
-
-    -Los elementos semánticos estan estandarizados y son ampliamente reconocidos y utilizados, lo que asegura que el contenido se renderice de manera consistente en diferentes navegadores y dispositivos.
-    -Usar etiqueras semñanticas proporciona una estructura lógica y coherente que mejora la experiencia del usuario al hacer la página más intuitiva y fácil de navegar.
+- Los elementos semánticos proporcionan una estructura clara del contenido que beneficia la navegación a los usuarios que dependen de tecnologías de asistencia.
+- Los motores de busqueda utilizan la estructura del HTML para indexar y clasificar las páginas web. los elementos semánticos ayudan a los motores de busqueda a entender el contenido de la página mejorando la visibilidad y el posicionamiento en los resultados de busqueda.
+-Hace que el código sea más legible y comprensible para los desarrolladores; ya que, facilida el mantenimiento y la colaboración en proyectos de desarrollo web.
+-Los elementos semánticos estan estandarizados y son ampliamente reconocidos y utilizados, lo que asegura que el contenido se renderice de manera consistente en diferentes navegadores y dispositivos.
+-Usar etiqueras semñanticas proporciona una estructura lógica y coherente que mejora la experiencia del usuario al hacer la página más intuitiva y fácil de navegar.
 
 ### 2. ¿Cuántos niveles de encabezado existen en HTML?
 
@@ -26,53 +23,53 @@ Algunos ejemplos son:
 
     1. Referencias y citas: Para indicar notas al pie de página, referencias bibliográficas o citas en documentos.
 
-    ```html
+            ```html
 
-    La teoría de la relatividad fue propuesta por Einstein<sup>[1]</sup>.
+            La teoría de la relatividad fue propuesta por Einstein<sup>[1]</sup>.
 
-    ```
+            ```
 
     2. Exponentes en matemáticas:
 
-    ```html
+            ```html
 
-    La fórmula del área del círculo es A = πr<sup>2</sup>.
+            La fórmula del área del círculo es A = πr<sup>2</sup>.
 
-    ```
+            ```
 
     3. Indicadores de Registro y Marca: Para mostrar símbolos de marcas registradas (®) o marcas comerciales (™).
 
-    ```html
+            ```html
 
-    Coca-Cola<sup>®</sup> es una marca registrada.
+            Coca-Cola<sup>®</sup> es una marca registrada.
 
-    ```
+            ```
 
 **```<sub>```(Subíndice)**
 
     1. Fórmulas Químicas: Para representar fórmulas químicas, donde los números indican la cantidad de átomos de cada elemento.
 
-    ```html
+            ```html
 
-    La fórmula del agua es H<sub>2</sub>O.
+            La fórmula del agua es H<sub>2</sub>O.
 
-    ```
+            ```
 
     2. Subíndices en Matemáticas y Ciencia: Para representar subíndices en fórmulas matemáticas o científicas.
 
-    ```html
+            ```html
 
-    La serie de Fibonacci se define como F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>.
+            La serie de Fibonacci se define como F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>.
 
-    ```
+            ```
 
     3. Notación Tipográfica y Lingüística: Para ciertos símbolos tipográficos o fonéticos que requieren subíndices.
 
-    ```html
+            ```html
 
-    En fonética, el símbolo para una consonante dental es t<sub>d</sub>.
+            En fonética, el símbolo para una consonante dental es t<sub>d</sub>.
 
-    ```
+            ```
 
 ### 4. Al utilizar el elemento ```<abbr>```, qué atributo se debe añadir para proporcionar una ampliación del término?
 
@@ -87,44 +84,41 @@ Se puede añadir CSS a un documento HTML de tres formas:
     1. Inline: Los estilos se añaden directamente a los elementos HTML utilizando el atributo ```style```.
     Ejemplo:
 
-    ```html
-                <h2 style="color: black; padding: 5px;">Título</h2>
-    ```
+            ```html
+                        <h2 style="color: black; padding: 5px;">Título</h2>
+            ```
 
     2. Estilos internos en el documento: Los estilos se añaden dentro de la etiqueta ```<style>``` en la sección ```<head>``` del documento HTML.
     Ejemplo:
 
-    ```html
-        <head>
-            <style>
-                h2 {
-                color: black;
-                padding: 5px;
-                }
-            </style>
-        </head>
-    ```
+            ```html
+                <head>
+                    <style>
+                        h2 {
+                        color: black;
+                        padding: 5px;
+                        }
+                    </style>
+                </head>
+            ```
 
     3. Estilos externos: Los estilos se añaden en un archivo CSS separado y se vinculan al documento HTML utilizando la etiqueta ```<link>``` en la seccion ```<head>```.
     Ejemplo:
 
-    ```html
-        <head>
-            <link rel="stylesheet" href="styles.css">
-        </head>
-    ```
+            ```html
+                <head>
+                    <link rel="stylesheet" href="styles.css">
+                </head>
+            ```
 
 ### 2. ¿Por qué deberíamos evitar utilizar estilos inline?
 
 Se debe evitar utilizar estilos inline por las siguientes razones:
 
-    - Los estilos inline dificultan la gestión y actualización de los estilos, especialmente en los proyectos grandes.
-
-    - No se pueden utilizar estilos inline fácilmente en múltiples elementos o páginas. No se pueden reusar.
-
-    - Separar el contenido HTML del diseño CSS mejora la legibilidad y la organización del código.
-
-    - Los estilos inline tienen una especificidad muy alta, lo que puede causar problemas al interntar sobrescribir estilos con CSS externo o interno.
+- Los estilos inline dificultan la gestión y actualización de los estilos, especialmente en los proyectos grandes.
+- No se pueden utilizar estilos inline fácilmente en múltiples elementos o páginas. No se pueden reusar.
+- Separar el contenido HTML del diseño CSS mejora la legibilidad y la organización del código.
+- Los estilos inline tienen una especificidad muy alta, lo que puede causar problemas al interntar sobrescribir estilos con CSS externo o interno.
 
 ### 3. Revisa el código a continuación y responde a las siguientes preguntas:
 
@@ -137,15 +131,15 @@ Se debe evitar utilizar estilos inline por las siguientes razones:
 
 ```
 
-    - ¿Qué representa el selector?
+- ¿Qué representa el selector?
 
     El selector ```<h2>``` se refiere a todos los elementos ```<h2>``` en el documento HTML. Selecciona esos elementos para aplicarles los estilos definidos dentro de las llaves "{}".
 
-    - ¿Qué componentes son declaraciones CSS?
+- ¿Qué componentes son declaraciones CSS?
 
     Son las siguientes: color y padding. Las declaraciones en CSS estan compuestas por una propiedad y un valor (en este caso el valor seria black y 5px respectivamente), separados por dos puntos y terminador con un punto y coma.
 
-    - ¿Qué componentes se consideran propiedades?
+- ¿Qué componentes se consideran propiedades?
 
     Se consideran como propiedades "color" y "padding". Las propiedades son características que se desea estilizar y se encuentran a la izquierda de los dos puntos en una declaración CSS.
 
@@ -162,26 +156,30 @@ Ejemplo:
 
 ### 2. Enumera 4 tipos de operadores en JavaScript.
 
-    1. Operadores aritméticos: Se utilizan para realizar operaciones matemáticas.
+1. Operadores aritméticos: Se utilizan para realizar operaciones matemáticas.
     Ejemplo: `+`, `-`, `*`, `/`, `%`.
+
     ```javascript
             let suma = 5 + 3; // 8
     ```
-    2. Operadores de comparación: Se utilizan para comparar dos valores.
+2. Operadores de comparación: Se utilizan para comparar dos valores.
     Ejemplo:  `==`, `!=`, `===`, `!==`, `>`, `<`, `>=`, `<=`.
+
     ```javascript
             let esIgual = (5 == '5'); // true
             let esEstrictamenteIgual = (5 === '5'); // false
     ```
-    3. Operadores de asignación: Se utilizan para asignar valores a variables.
+3. Operadores de asignación: Se utilizan para asignar valores a variables.
     Ejemplo: `=`, `+=`, `-=`, `*=`, `/=`, `%=`.
+
     ```javascript
             let x = 10;
             x += 5; // x ahora es 15
             x *= 2; // x ahora es 30
     ```
-    4. Operadores lógicos: Se utilizan para realizar operaciones lógicas.
+4. Operadores lógicos: Se utilizan para realizar operaciones lógicas.
     Ejemplo: `&&` (AND), `||` (OR), `!` (NOT).
+    
     ```javascript
             let esVerdadero = (5 > 3 && 2 < 4); // true
             let esFalso = !(5 > 3); // false
