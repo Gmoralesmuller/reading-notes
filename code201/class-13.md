@@ -44,3 +44,4 @@ Tipos de datos que se pueden guardar:
 
 1. [Local Storage and How To Use It On Websites](https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/)
 2. [“The Past, Present, and Future of Local Storage for Web Applications”](https://diveinto.html5doctor.com/storage.html)
+3. *Este documento fue realizado con el apoyo de Gemini*
