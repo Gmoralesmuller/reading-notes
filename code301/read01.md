@@ -50,7 +50,7 @@ El término “props” es una abreviatura de “propiedades”, que se refiere 
 
 ### 2.¿Cómo se utilizan los props en React?
 
-Los props se utilizan para hacer que los componentes sean reutilizables y configurables. Por ejemplo, imagina un componente <Button>. Puedes pasar diferentes props a este componente para personalizar su apariencia y comportamiento:
+Los props se utilizan para hacer que los componentes sean reutilizables y configurables. Por ejemplo, imagina un componente ```<Button>```. Puedes pasar diferentes props a este componente para personalizar su apariencia y comportamiento:
 
 ```JavaScript
 function Button(props) {
@@ -65,6 +65,8 @@ function Button(props) {
 ### 3.¿Cuál es el flujo de los props?
 
 El flujo de los props es unidireccional, desde los componentes padres hacia los componentes hijos. Esto significa que un componente padre puede pasar datos a sus hijos, pero los hijos no pueden modificar esos datos y pasarlos de vuelta al padre.
+
+### Cosas de las que quiero saber más
 
 #### Fuentes consultadas
 
